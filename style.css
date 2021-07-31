@@ -6,7 +6,7 @@
 .hero{
     height: 100vh; 
     width: 100%;
-    background-image: url(./images/image3.jpg);
+    background-image: url(./images/covers.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -17,7 +17,7 @@
     cursor: pointer;
 }
 span{
-    color: #f9004d;
+    color: #18d26e;
 }
 .nav{ 
     display: flex;
@@ -38,7 +38,7 @@ ul li a{
     text-decoration: none;
 }
 ul li a:hover{
-    color: #f9004d;
+    color: #18d26e;
 }
 .btn{
     background-color: #f9004d;
@@ -55,7 +55,7 @@ ul li a:hover{
 }
 .content{
     position: absolute;
-    top: 50%;
+    top: 30%;
     left: 8%;
 }
 h1{
@@ -66,7 +66,7 @@ h1{
 h3{
     color: white;
     font-size: 25px;
-    margin-bottom: 50px;
+    margin-bottom: 42px;
 }
 h4{
     color: rgb(209, 202, 202);
@@ -82,7 +82,9 @@ h4{
   width: 100%;
   display: inline-block;
   padding: 14px 130px 14px 15px;
-  border: 2px solid #f9004d;
+  border: 2px solid #18d26e;
+  color: #18d26e;
+  outline: none;
   border-radius: 30px;
 }
 .newsletter form input:last-child {
@@ -95,4 +97,42 @@ h4{
     color: white;
     top: 6px;
     right: 6px;
+}
+
+.logo {
+    margin-top: 10px;
+    margin-left: 10px;
+    padding: 2px 0;
+}
+
+.fa-linkedin {
+    margin-right: 10px;
+}
+
+.fa-linkedin:hover {
+    color: #3380CC;
+}
+
+.fa-twitter {
+    margin-right: 10px;
+}
+
+.fa-twitter:hover {
+    color: #0F9AFB;
+}
+
+.fa-facebook-f {
+    margin-right: 10px;
+}
+
+.fa-facebook-f:hover {
+    color: #1196F5;
+}
+
+.fa-youtube {
+    margin-right: 10px;
+}
+
+.fa-youtube:hover {
+    color: #FF0000;
 }
